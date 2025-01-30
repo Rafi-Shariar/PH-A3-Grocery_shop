@@ -52,7 +52,47 @@
       };
     </script>
   </head>
-  <body>
+  <body class="font-primary">
+
+    <!-- Header Section -->
+     <header>
+
+        <!-- Nav Bar -->
+         <div class="w-11/12 mx-auto mt-5 flex justify-between items-center">
+            <div id="header-logo" class="mb-4"> <img src="./c2-assets/logo-header.png" alt=""></div>
+            <nav class="hidden lg:inline">
+                <a href="" class="mr-8">Product</a>
+                <a href="" class="mr-8">Services</a>
+                <a href="" class="mr-8">Contact us</a>
+            </nav>
+            <div id="header-buttons" class="hidden lg:inline lg:flex gap-5 justify-center items-center">
+                <div id="search" class="text-3xl"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div id="cart" class="text-3xl"><i class="fa-solid fa-cart-shopping"></i></div>
+                <!-- <div id="buttons" class="text-xl"> -->
+                    <button class="btn border-green-700 bg-white">Login</button>
+                    <button class="btn bg-green-700 text-white">Register</button>
+                <!-- </div> -->
+            </div>
     
-  </body>
+            <div id="mobile-nav" class="lg:hidden text-4xl text-green-700">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+         </div>
+
+         <!-- Banner Section -->
+           <div class="bg-gradient-to-t from-slate-200  border-t-2 border-green-700 lg:border-0">
+            <div class="Banner-contents text-center">
+                <h1 class="text-6xl font-semibold mt-20">Freshness <span class="text-green-700">You Can</span> <br>
+                    <span class="text-green-700">Count</span> On, Prices You’ll Love!</h1>
+                
+                <p class="font-light lg:font-normal text-xl mt-8 mb-9">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+            </div>
+            <div class="Banner-logo ">
+                <img src="./c2-assets/hero-vegetables.png" alt="" class=" lg:w-8/12 mx-auto ">
+            </div>
+           </div>
+       
+     </header>
+
+  </body>   
 </html>
